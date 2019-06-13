@@ -1,0 +1,81 @@
+{
+    "total_points_available": 100,
+    "tests": [
+        {
+            "output": {
+                "points_available": 20,
+                "points_awarded": null
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_xvmsodwf/AIResult.py\", line 26, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 297, in test_build_decision_trees_automatically\n    classifications = tree.classify( test_features )\n  File \"/home/vmuser_xvmsodwf/workspace/decision_trees_submission.py\", line 399, in classify\n    class_labels = [self.root.decide(feature) for feature in features]\n  File \"/home/vmuser_xvmsodwf/workspace/decision_trees_submission.py\", line 43, in decide\n    elif self.decision_function(feature):\nValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()\n",
+            "description": "(2b) Test for building decision trees automatically. 20 pts."
+        },
+        {
+            "output": {
+                "points_available": 10,
+                "points_awarded": null
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_xvmsodwf/AIResult.py\", line 26, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 429, in test_challenge_classifier\n    tree = dt.ChallengeClassifier()\n  File \"/home/vmuser_xvmsodwf/workspace/decision_trees_submission.py\", line 477, in __init__\n    raise NotImplemented()\nTypeError: 'NotImplementedType' object is not callable\n",
+            "description": "(4). Test for challenge classifier. (10 points)"
+        },
+        {
+            "output": {
+                "points_available": 10,
+                "points_awarded": null
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_xvmsodwf/AIResult.py\", line 26, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 325, in test_k_folds\n    ten_folds = dt.generate_k_folds(dataset, 10)\n  File \"/home/vmuser_xvmsodwf/workspace/decision_trees_submission.py\", line 421, in generate_k_folds\n    raise NotImplemented()\nTypeError: 'NotImplementedType' object is not callable\n",
+            "description": "(2c). Test for generate_k_folds. 10 pts"
+        },
+        {
+            "output": {
+                "points_available": 30,
+                "points_awarded": null
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_xvmsodwf/AIResult.py\", line 26, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 388, in test_random_forests\n    tree.fit(train_features, train_labels)\n  File \"/home/vmuser_xvmsodwf/workspace/decision_trees_submission.py\", line 452, in fit\n    raise NotImplemented()\nTypeError: 'NotImplementedType' object is not callable\n",
+            "description": "(3). Test for random forest classification. (30 points)"
+        },
+        {
+            "output": {
+                "points_available": 1,
+                "points_awarded": null
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_xvmsodwf/AIResult.py\", line 26, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 605, in test_return_your_name\n    name = dt.return_your_name()\n  File \"/home/vmuser_xvmsodwf/workspace/decision_trees_submission.py\", line 645, in return_your_name\n    raise NotImplemented()\nTypeError: 'NotImplementedType' object is not callable\n",
+            "description": "(6). Test the student printed their name (a non-empty string),(1 point)"
+        },
+        {
+            "output": {
+                "points_available": 6,
+                "points_awarded": null
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_xvmsodwf/AIResult.py\", line 26, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 527, in test_vectorization\n    v1_student_answer = vectorize.vectorized_loops(data)\n  File \"/home/vmuser_xvmsodwf/workspace/decision_trees_submission.py\", line 550, in vectorized_loops\n    raise NotImplemented()\nTypeError: 'NotImplementedType' object is not callable\n",
+            "description": "(5). Test for vectorization. (6 points)"
+        },
+        {
+            "output": {
+                "points_available": 12,
+                "points_awarded": 9,
+                "autograder_comments": "1b results: Incorrect value for accuracy test. Passed precision test. Passed recall test. Passed confusion matrix test. "
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_xvmsodwf/AIResult.py\", line 26, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 243, in test_accuracy_precision_recall_confusion\n    self.assertEqual(score, 12, \"Test Accuracy, Precision, Recall, Confusion Matrix\")\nAssertionError: Test Accuracy, Precision, Recall, Confusion Matrix\n",
+            "description": "(1b). Test for accuracy, precision, recall and confusion matrix. (12 points)"
+        },
+        {
+            "output": {
+                "points_available": 5,
+                "points_awarded": 5.0,
+                "autograder_comments": "1a results: Correct number of nodes for basic binary decision tree. Basic binary decision tree sufficiently accurate. "
+            },
+            "traceback": "",
+            "description": "(1a). Test for building a simple binary decision tree. (5 points)"
+        },
+        {
+            "output": {
+                "points_available": 6,
+                "points_awarded": 6,
+                "autograder_comments": "2a results: Passed gini_impurity test. Passed gini gain test. "
+            },
+            "traceback": "",
+            "description": "(2a). Test for gini impurity and gain. (6 points)"
+        }
+    ],
+    "total_points_awarded": 20.0
+}

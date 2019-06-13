@@ -1,0 +1,83 @@
+{
+    "total_points_available": 100,
+    "tests": [
+        {
+            "output": {
+                "points_available": 10,
+                "points_awarded": null
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_mgeukbpr/AIResult.py\", line 26, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 429, in test_challenge_classifier\n    tree = dt.ChallengeClassifier()\n  File \"/home/vmuser_mgeukbpr/workspace/decision_trees_submission.py\", line 550, in __init__\n    raise NotImplemented()\nTypeError: 'NotImplementedType' object is not callable\n",
+            "description": "(4). Test for challenge classifier. (10 points)"
+        },
+        {
+            "output": {
+                "points_available": 30,
+                "points_awarded": null
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_mgeukbpr/AIResult.py\", line 26, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 388, in test_random_forests\n    tree.fit(train_features, train_labels)\n  File \"/home/vmuser_mgeukbpr/workspace/decision_trees_submission.py\", line 503, in fit\n    D_tree.fit(sample_features,sample_classes)\n  File \"/home/vmuser_mgeukbpr/workspace/decision_trees_submission.py\", line 289, in fit\n    self.root = self.__build_tree__(features, classes)\n  File \"/home/vmuser_mgeukbpr/workspace/decision_trees_submission.py\", line 390, in __build_tree__\n    sub_nodes.append(self.__build_tree__(left_features, left_classes, depth + 1))\n  File \"/home/vmuser_mgeukbpr/workspace/decision_trees_submission.py\", line 391, in __build_tree__\n    sub_nodes.append(self.__build_tree__(right_features, right_classes, depth + 1))\n  File \"/home/vmuser_mgeukbpr/workspace/decision_trees_submission.py\", line 390, in __build_tree__\n    sub_nodes.append(self.__build_tree__(left_features, left_classes, depth + 1))\n  File \"/home/vmuser_mgeukbpr/workspace/decision_trees_submission.py\", line 391, in __build_tree__\n    sub_nodes.append(self.__build_tree__(right_features, right_classes, depth + 1))\n  File \"/home/vmuser_mgeukbpr/workspace/decision_trees_submission.py\", line 391, in __build_tree__\n    sub_nodes.append(self.__build_tree__(right_features, right_classes, depth + 1))\n  File \"/home/vmuser_mgeukbpr/workspace/decision_trees_submission.py\", line 324, in __build_tree__\n    most_frequent = np.argmax(np.bincount(classes))\n  File \"/usr/local/lib/python2.7/dist-packages/numpy/core/fromnumeric.py\", line 963, in argmax\n    return _wrapfunc(a, 'argmax', axis=axis, out=out)\n  File \"/usr/local/lib/python2.7/dist-packages/numpy/core/fromnumeric.py\", line 57, in _wrapfunc\n    return getattr(obj, method)(*args, **kwds)\nValueError: attempt to get argmax of an empty sequence\n",
+            "description": "(3). Test for random forest classification. (30 points)"
+        },
+        {
+            "output": {
+                "points_available": 1,
+                "points_awarded": null
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_mgeukbpr/AIResult.py\", line 26, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 605, in test_return_your_name\n    name = dt.return_your_name()\n  File \"/home/vmuser_mgeukbpr/workspace/decision_trees_submission.py\", line 718, in return_your_name\n    raise NotImplemented()\nTypeError: 'NotImplementedType' object is not callable\n",
+            "description": "(6). Test the student printed their name (a non-empty string),(1 point)"
+        },
+        {
+            "output": {
+                "points_available": 6,
+                "points_awarded": null
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_mgeukbpr/AIResult.py\", line 26, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 527, in test_vectorization\n    v1_student_answer = vectorize.vectorized_loops(data)\n  File \"/home/vmuser_mgeukbpr/workspace/decision_trees_submission.py\", line 623, in vectorized_loops\n    raise NotImplemented()\nTypeError: 'NotImplementedType' object is not callable\n",
+            "description": "(5). Test for vectorization. (6 points)"
+        },
+        {
+            "output": {
+                "points_available": 12,
+                "points_awarded": 9,
+                "autograder_comments": "1b results: Incorrect value for accuracy test. Passed precision test. Passed recall test. Passed confusion matrix test. "
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_mgeukbpr/AIResult.py\", line 26, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 243, in test_accuracy_precision_recall_confusion\n    self.assertEqual(score, 12, \"Test Accuracy, Precision, Recall, Confusion Matrix\")\nAssertionError: Test Accuracy, Precision, Recall, Confusion Matrix\n",
+            "description": "(1b). Test for accuracy, precision, recall and confusion matrix. (12 points)"
+        },
+        {
+            "output": {
+                "points_available": 10,
+                "points_awarded": 0,
+                "autograder_comments": "2b results: Unsatisfactory: Generate k-folds accuracy of 0.435766423358. "
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_mgeukbpr/AIResult.py\", line 26, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 370, in test_k_folds\n    self.assertEqual(score, 10, \"Test for generate_k_folds\")\nAssertionError: Test for generate_k_folds\n",
+            "description": "(2c). Test for generate_k_folds. 10 pts"
+        },
+        {
+            "output": {
+                "points_available": 5,
+                "points_awarded": 5.0,
+                "autograder_comments": "1a results: Correct number of nodes for basic binary decision tree. Basic binary decision tree sufficiently accurate. "
+            },
+            "traceback": "",
+            "description": "(1a). Test for building a simple binary decision tree. (5 points)"
+        },
+        {
+            "output": {
+                "points_available": 20,
+                "points_awarded": 20,
+                "autograder_comments": "2a results: Satisfactory: Decision tree accuracy of 0.983237969894. "
+            },
+            "traceback": "",
+            "description": "(2b) Test for building decision trees automatically. 20 pts."
+        },
+        {
+            "output": {
+                "points_available": 6,
+                "points_awarded": 6,
+                "autograder_comments": "2a results: Passed gini_impurity test. Passed gini gain test. "
+            },
+            "traceback": "",
+            "description": "(2a). Test for gini impurity and gain. (6 points)"
+        }
+    ],
+    "total_points_awarded": 40.0
+}
