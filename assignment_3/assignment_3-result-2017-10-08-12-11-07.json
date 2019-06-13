@@ -1,0 +1,102 @@
+{
+    "tests": [
+        {
+            "output": {
+                "points_available": 5,
+                "message": "MH sampling didn't generate any relevant samples to calculate the posterior.",
+                "return_type_check": true,
+                "points_awarded": 0
+            },
+            "description": "(2d). Test for MH convergence. (5 points)"
+        },
+        {
+            "output": {
+                "points_available": 19,
+                "message": "MH Calculated posterior which is too far from actual posterior.\n",
+                "return_type_check": true,
+                "points_awarded": 14
+            },
+            "description": "(2e). Testing compare_sampling. (20 points)"
+        },
+        {
+            "output": {
+                "points_available": 5,
+                "message": "",
+                "return_type_check": true,
+                "points_awarded": 5
+            },
+            "description": "(2b). Test that the posterior is calculated correctly. (5 points)"
+        },
+        {
+            "output": {
+                "points_available": 5,
+                "message": "",
+                "return_type_check": true,
+                "points_awarded": 5
+            },
+            "description": "(2c). Test for Gibbs convergence (5 points)"
+        },
+        {
+            "output": {
+                "points_available": 10,
+                "message": "When provided no initial state, Gibbs should generate a state from uniform distribution. \n",
+                "return_type_check": true,
+                "points_awarded": 10
+            },
+            "description": "(2c). Test that Gibbs is implemented correctly. (10 points)"
+        },
+        {
+            "output": {
+                "points_available": 10,
+                "message": "When provided no initial state, MH should generate a state from uniform distribution. \nMH generating samples which look like Gibbs 3 times out of 50 times.",
+                "return_type_check": true,
+                "points_awarded": 10
+            },
+            "description": "(2d). Test that MH is implemented correctly. (10 points)"
+        },
+        {
+            "output": {
+                "points_available": 10,
+                "message": "",
+                "return_type_check": true,
+                "points_awarded": 10
+            },
+            "description": "(1c). Test for the inference task for various power plant situations: marginal alarm, gauge, and temperature. (10 points)"
+        },
+        {
+            "output": {
+                "points_available": 15,
+                "message": "",
+                "return_type_check": true,
+                "points_awarded": 15
+            },
+            "description": "(1b). Test for the probability distribution of the power plant Bayesian network. (15 points)"
+        },
+        {
+            "output": {
+                "points_available": 10,
+                "message": "",
+                "return_type_check": true,
+                "points_awarded": 10
+            },
+            "description": "(1a). Test for the structure of the power plant Bayesian network. (10 points)"
+        },
+        {
+            "output": {
+                "points_available": 1,
+                "return_type_check": true,
+                "points_awarded": 1
+            },
+            "description": "Test the student printed their name (a non-empty string)"
+        },
+        {
+            "output": {
+                "points_available": 10,
+                "message": "",
+                "return_type_check": true,
+                "points_awarded": 10.0
+            },
+            "description": "(2a). Test that the sports network is set up correctly. (10 points)"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "total_points_available": 25,
+    "tests": [
+        {
+            "output": {
+                "points_available": 20,
+                "win_ratio": 0.7,
+                "points_awarded": 20,
+                "num_invalid_moves": 6,
+                "num_timeouts": 0
+            },
+            "traceback": "",
+            "description": "Beats Iterative Minimax with secret Eval Function"
+        },
+        {
+            "output": {
+                "points_available": 5,
+                "win_ratio": 0.6,
+                "points_awarded": 5,
+                "num_invalid_moves": 8,
+                "num_timeouts": 0
+            },
+            "traceback": "",
+            "description": "Beats Iterative AlphaBetaPlayer with secret Eval Function"
+        }
+    ],
+    "total_points_awarded": 25
+}
