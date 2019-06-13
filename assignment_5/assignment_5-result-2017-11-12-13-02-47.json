@@ -1,0 +1,58 @@
+{
+    "tests": [
+        {
+            "output": {
+                "points_available": 2,
+                "points_awarded": 0,
+                "autograder_comments": "Bonus results.\nEXCEPTION IN (mixture_models.py, LINE 756 \"raise NotImplementedError()\"): \n"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_vuoynkrh/AIResult.py\", line 26, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 90, in test_bonus\n    self.assertTrue(test_flag, \"Part 6: Bonus test\")\nAssertionError: Part 6: Bonus test\n",
+            "description": "Test the Bonus implementation"
+        },
+        {
+            "output": {
+                "points_available": 20,
+                "points_awarded": 20.0,
+                "autograder_comments": "Part 4a results.\nCalculated BIC matches the expected BIC.\nPart 4b results.\nNumber of components for min-BIC model matches the expected number 7.\nNumber of components for max-likelihood model matches the expected number.\n20.00 points.\n"
+            },
+            "traceback": "",
+            "description": "Test the BIC implementation"
+        },
+        {
+            "output": {
+                "points_available": 20,
+                "points_awarded": 20.0,
+                "autograder_comments": "Part 3a results.\nImproved initialization achieved a likelihood far greater than the original likelihood.\nPart 3b results.\nDifferent convergence condition resulted in a likelihood that was significantly different from the original model's likelihood.\n20.00 points."
+            },
+            "traceback": "",
+            "description": "Test the GMM changes (improved) implementation"
+        },
+        {
+            "output": {
+                "points_available": 40,
+                "points_awarded": 40,
+                "autograder_comments": "Part 2 results.\nCalculated probability matches expected probability. Calculated pre-training likelihood matches the expected likelihood. Post-train likelihood is significantly greater than pre-train likelihood. Points awarded: 10. Post-train likelihood is significantly greater than baseline likelihood. Points awarded: 10. Post-segment image has 3 components as expected.\nBest segmentation has a likelihood much greater than reference segmentation.\n40.00 points."
+            },
+            "traceback": "",
+            "description": "Test the GMM (train, best_segment) implementation"
+        },
+        {
+            "output": {
+                "points_available": 19,
+                "points_awarded": 19.0,
+                "autograder_comments": "Part 1 results.\nClustering for 2 produced a realistic image segmentation. Image difference: 0. Points earned: 3\nClustering for 3 produced a realistic image segmentation. Image difference: 0. Points earned: 3\nClustering for 4 produced a realistic image segmentation. Image difference: 0. Points earned: 3\nClustering for 5 produced a realistic image segmentation. Image difference: 0. Points earned: 3\nClustering for 6 produced a realistic image segmentation. Image difference: 0. Points earned: 3\nTotal points earned in this part: 19.00 points."
+            },
+            "traceback": "",
+            "description": "Test the k-Means implementation"
+        },
+        {
+            "output": {
+                "points_available": 1,
+                "points_awarded": 1,
+                "autograder_comments": "Return Your Name: Name successfully returned\n"
+            },
+            "traceback": "",
+            "description": "Test the student printed their name (a non-empty string)"
+        }
+    ]
+}
